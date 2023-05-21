@@ -1,5 +1,5 @@
 # down
-down is an Instagram/YouTube Video Downloader for Termux
+down is an Instagram Video Downloader for Termux
 > Source Code: [Click Here](src/main.sh)
 ## Prerequisites
 - Termux

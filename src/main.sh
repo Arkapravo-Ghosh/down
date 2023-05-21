@@ -5,7 +5,7 @@ display_help() {
     echo "  -h, --help       Display this help message"
     echo "  -u, --url URL    Specify the share URL of the video"
     echo ""
-    echo "down v1.0.3 Made by Arkapravo Ghosh"
+    echo "down v1.0.4 Made by Arkapravo Ghosh"
 }
 download_video() {
     video_url=$(yt-dlp --no-playlist --get-url "$1")
@@ -56,11 +56,7 @@ done
 if [[ -z $share_url ]]; then
     read -p "Enter URL: " share_url
 fi
-if [[ $share_url == *"youtube.com"* ]]; then
-    download_video "$share_url"
-elif [[ $share_url == *"youtu.be"* ]]; then
-    download_video "$share_url"
-elif [[ $share_url == *"instagram.com"* ]]; then
+if [[ $share_url == *"instagram.com"* ]]; then
     download_video "$share_url"
 else
     echo "Unsupported URL. Only YouTube and Instagram URLs are supported."
