@@ -11,11 +11,7 @@ down is an Instagram/YouTube Video Downloader for Termux
 ## Installation
 ### Install Dependencies
 ```bash
-apt update && apt full-upgrade -y && apt install -y python ffmpeg exiftool termux-tools
-```
-### Install yt-dlp
-```bash
-pip install yt-dlp
+apt update && apt full-upgrade -y && apt install -y python ffmpeg exiftool termux-tools && pip install -U pip && pip install yt-dlp
 ```
 ### Install down
 ```bash
