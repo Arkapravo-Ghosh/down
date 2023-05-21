@@ -1,5 +1,6 @@
 # down
 down is an Instagram/YouTube Video Downloader for Termux
+> Source Code: [Click Here](src/main.sh)
 ## Prerequisites
 - Termux
 - Python 3.7 or higher with pip
