@@ -13,6 +13,10 @@ down is an Instagram Video Downloader for Termux
 ```bash
 apt update && apt full-upgrade -y && apt install -y python ffmpeg exiftool termux-tools && pip install -U pip && pip install yt-dlp
 ```
+### Setup storage
+```bash
+termux-setup-storage
+```
 ### Install down
 ```bash
 curl -sSL https://raw.githubusercontent.com/Arkapravo-Ghosh/down/main/install.sh | bash
