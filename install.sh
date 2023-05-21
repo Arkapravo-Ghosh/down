@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-dnld_url="https://raw.githubusercontent.com/Arkapravo-Ghosh/down/main/down.sh"
+dnld_url="https://raw.githubusercontent.com/Arkapravo-Ghosh/down/main/src/main.sh"
 install_dir="/data/data/com.termux/files/usr/bin"
 install_file="down"
 curl -sSL "$dnld_url" -o "$install_dir/$install_file"
