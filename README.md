@@ -7,7 +7,6 @@ down is an Instagram/YouTube Video Downloader for Termux
 - exiftool
 - ffmpeg
 - termux-tools
-
 ## Installation
 ### Install Dependencies
 ```bash
