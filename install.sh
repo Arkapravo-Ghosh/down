@@ -8,5 +8,5 @@ echo "The 'down' command has been installed in $install_dir"
 if [[ $(command -v down) ]]; then
     echo "Please restart your shell or run 'source ~/.bashrc' to start using the 'down' command."
 else
-    echo "You can start using the 'down' command immediately."
+    echo "You can start using the 'down -h' command immediately."
 fi
