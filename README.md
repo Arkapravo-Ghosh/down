@@ -1,6 +1,11 @@
 # down
 down is an Instagram Video Downloader for Termux
 > Source Code: [Click Here](src/main.sh)
+## Demo
+<div align=center>
+<img src="docs/images/demo.png" width="1000px" alt="Demo">
+</div>
+
 ## Prerequisites
 - Termux
 - Python 3.7 or higher with pip
