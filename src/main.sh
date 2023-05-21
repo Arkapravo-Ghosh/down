@@ -5,7 +5,7 @@ display_help() {
     echo "  -h, --help       Display this help message"
     echo "  -u, --url URL    Specify the share URL of the video"
     echo ""
-    echo "down v1.0.1 Made by Arkapravo Ghosh"
+    echo "down v1.0.2 Made by Arkapravo Ghosh"
 }
 download_video() {
     video_url=$(yt-dlp --no-playlist --get-url "$1")
