@@ -21,6 +21,7 @@ termux-setup-storage
 ```bash
 curl -sSL https://raw.githubusercontent.com/Arkapravo-Ghosh/down/main/install.sh | bash
 ```
+> NOTE: To update, use this command again.
 ## Usage
 ```bash
 down -h
