@@ -8,6 +8,7 @@ display_help() {
     echo "down v1.0.5 Made by Arkapravo Ghosh"
 }
 download_video() {
+    video_url="$1"
     if [[ $video_url == *"instagram.com"* ]]; then
         video_url=$(yt-dlp --no-playlist --get-url "$1")
         if [[ -n $video_url ]]; then
